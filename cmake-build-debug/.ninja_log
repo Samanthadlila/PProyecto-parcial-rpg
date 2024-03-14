@@ -1,0 +1,16 @@
+# ninja log v5
+5	330	7321367433512838	build.ninja	2bed84979f1dd3f5
+3	544	7321367433512838	build.ninja	2bed84979f1dd3f5
+22	1674	7321367452278830	CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj	e899bc735bc6ea93
+8	1986	7321367455421498	CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj	55287bcaecbb5309
+2	2129	7321367456828014	CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj	9ae87b73676a04
+15	2227	7321367457782763	CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj	64a0a1611983bfb0
+28	2758	7321367463118990	CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj	7eb82e21444329ae
+2758	3406	7321367469540783	PProyecto_parcial_rpg.exe	2c8dcde927633cad
+12	2423	7321370014595625	CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj	9ae87b73676a04
+24	3014	7321370020487080	CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj	7eb82e21444329ae
+3015	3410	7321370024403215	PProyecto_parcial_rpg.exe	2c8dcde927633cad
+19	1769	7321371425331792	CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj	64a0a1611983bfb0
+1770	2212	7321371429724058	PProyecto_parcial_rpg.exe	2c8dcde927633cad
+30	1933	7321371991867402	CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj	9ae87b73676a04
+1934	2625	7321371998744038	PProyecto_parcial_rpg.exe	2c8dcde927633cad
