@@ -46,7 +46,8 @@ Character* Enemy::getTarget(vector<Player *> teamMembers) {
 
     return teamMembers[targetIndex];
 }
-
+/////////////////////////////////////
+///Huida del enemigo//////////
 Action Enemy::takeAction(vector<Player *> player) {
     Action myAction;
     myAction.speed = getSpeed();
