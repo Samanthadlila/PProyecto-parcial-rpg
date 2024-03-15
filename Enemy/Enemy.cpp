@@ -51,11 +51,19 @@ Action Enemy::takeAction(vector<Player *> player) {
     Action myAction;
     myAction.speed = getSpeed();
     myAction.subscriber = this;
+
     Character* target = getTarget(player);
-    myAction.target = target;
-    myAction.action = [this, target]() {
-        doAttack(target);
-    };
+    if (this->getHealth()< 15){
+        myAction.action = [this, target](){
+            cout <<"EL ENEMIGO HA HUIDO"<< endl;
+            this->fleed = true;
+        };
+    }else{
+        myAction.target = target;
+        myAction.action = [this, target](){
+            doAttack(target);
+        };
+    }
 
     return myAction;
 }
