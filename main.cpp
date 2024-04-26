@@ -8,8 +8,10 @@
 
 using namespace std;
 
+int main();
+
 int main() {
-    Player *player = new Player("Sam", 30, 8, 2, 10);
+    Player *player = new Player("S", 30, 8, 2, 10);
     Enemy *enemy = new Enemy("Programacion", 30, 9, 2, 7);
     Enemy *enemy2 = new Enemy("Calculo", 30, 7, 2, 2);
 

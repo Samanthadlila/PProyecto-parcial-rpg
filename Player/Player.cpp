@@ -12,8 +12,8 @@ using namespace combat_utils;
 bool compareSpeed(Enemy *a, Enemy *b) {
     return a->getSpeed() > b->getSpeed();
 }
-
-Player::Player(string name, int health, int attack, int defense, int speed) : Character(name, health, attack, defense,
+//cambio
+Player::Player(char name[30], int health, int attack, int defense, int speed) : Character(name, health, attack, defense,
                                                                                         speed, true) {
     experience = 0;
     level = 1;

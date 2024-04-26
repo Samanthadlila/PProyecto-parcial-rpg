@@ -14,6 +14,10 @@ class Player;
 class Enemy: public Character {
 public:
     Enemy(string, int, int, int, int);
+
+    Enemy(char *_name, int health, int attack, int defense, int speed);
+
+
     void doAttack(Character *target) override;
     void takeDamage(int damage) override;
     Character* getTarget(vector<Player*> teamMembers);
