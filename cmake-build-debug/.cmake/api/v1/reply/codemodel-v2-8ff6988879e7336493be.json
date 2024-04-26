@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/preci/Desktop/PProyecto parcial rpg/cmake-build-debug",
-		"source" : "C:/Users/preci/Desktop/PProyecto parcial rpg"
+		"build" : "C:/Users/preci/PProyecto-parcial-rpg/cmake-build-debug",
+		"source" : "C:/Users/preci/PProyecto-parcial-rpg"
 	},
 	"version" : 
 	{
