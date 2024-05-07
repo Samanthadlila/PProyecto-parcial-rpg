@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/preci/PProyecto-parcial-rpg/cmake-build-debug"
+			"value" : "c:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/preci/PProyecto-parcial-rpg/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/preci/PProyecto-parcial-rpg"
+			"value" : "C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1351,7 +1351,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/preci/PProyecto-parcial-rpg/cmake-build-debug"
+			"value" : "C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/cmake-build-debug"
 		},
 		{
 			"name" : "PProyecto_parcial_rpg_IS_TOP_LEVEL",
@@ -1375,7 +1375,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/preci/PProyecto-parcial-rpg"
+			"value" : "C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

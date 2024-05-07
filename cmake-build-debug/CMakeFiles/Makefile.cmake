@@ -110,8 +110,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake"
   "C:/Program Files/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/ProcessorCount.cmake"
-  "C:/Users/preci/PProyecto-parcial-rpg/CMakeLists.txt"
+  "C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/CMakeLists.txt"
+  "CMakeFiles/3.27.8/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.27.8/CMakeRCCompiler.cmake"
   "CMakeFiles/3.27.8/CMakeSystem.cmake"
   )
 
@@ -124,7 +126,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.27.8/CMakeSystem.cmake"
+  "CMakeFiles/3.27.8/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.27.8/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.27.8/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.8/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )

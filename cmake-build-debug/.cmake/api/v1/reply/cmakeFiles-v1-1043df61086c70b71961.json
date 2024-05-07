@@ -279,6 +279,10 @@
 			"path" : "C:/Program Files/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in"
 		},
 		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake"
@@ -608,6 +612,10 @@
 			"path" : "C:/Program Files/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in"
 		},
 		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake"
@@ -681,6 +689,10 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -790,8 +802,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/preci/PProyecto-parcial-rpg/cmake-build-debug",
-		"source" : "C:/Users/preci/PProyecto-parcial-rpg"
+		"build" : "C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/cmake-build-debug",
+		"source" : "C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg"
 	},
 	"version" : 
 	{
