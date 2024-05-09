@@ -11,7 +11,7 @@ using namespace std;
 
 class Character {
 protected:
-    char name[30]={'S', 'a', 'm'};
+    char name[30];
     int health;
     int attack;
     int defense;
@@ -20,13 +20,14 @@ protected:
     bool fleed;
 
 public:
-    Character(char[30], int, int, int, int, bool);//cambio a char
+    Character(char*, int, int, int, int, bool);//cambio a char
 
     virtual void doAttack(Character *target) = 0;
     virtual void takeDamage(int damage) = 0;
 
-    void setName(char [30]);//cambio a char
-    string getName();
+    void setName(char* );//cambio a char
+
+    char* getName();//cambio a char
 
     void setHealth(int);
     int getHealth();

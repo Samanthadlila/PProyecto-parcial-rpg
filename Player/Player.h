@@ -15,10 +15,13 @@ class Player: public Character {
 protected:
     int experience;
     int level;
+    char* buffer; //variable de paso
+
 public:
-    Player(char _name[30], int _health, int _attack, int _defense, int _speed);
+    Player(char* _name, int _health, int _attack, int _defense, int _speed);
     void doAttack(Character *target) override;
     void takeDamage(int damage) override;
+    char* serialize();//serializa la instancia de la clase que tenemos
 
     Character* getTarget(vector<Enemy*> enemies);
 

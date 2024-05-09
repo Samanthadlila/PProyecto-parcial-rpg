@@ -12,8 +12,8 @@
 //const char* a su memoria interna
 //strcpy es una funcion que copia la cadena a un char*
 
-Character::Character(char _name[30], int _health, int _attack, int _defense, int _speed, bool _isPlayer) {//cambio a char
-    if(_name != nullptr) strcpy(name, _name);//////////////////////////////////
+Character::Character(char* _name, int _health, int _attack, int _defense, int _speed, bool _isPlayer) {//cambio a char
+    strcpy(name, _name);//////////////////////////////////
     health = _health;
     attack = _attack;
     defense = _defense;
@@ -22,11 +22,11 @@ Character::Character(char _name[30], int _health, int _attack, int _defense, int
     fleed = false;
 }
 
-void Character::setName(char _name[30]) {///cambio a char
+void Character::setName(char* _name) {///cambio a char
     strcpy(name, _name);}
 
 
-string Character::getName() {
+char* Character::getName() {
     return name;
 }
 
@@ -63,8 +63,7 @@ int Character::getSpeed() {
 }
 
 string Character::toString() {
-    string _name(name, 30);//no se cambia
-    return "Name: " + _name + "\nHealth: " + to_string(health) + "\nAttack: " + to_string(attack) + "\nDefense: " + to_string(defense) + "\nSpeed: " + to_string(speed);
+    return "Name: " + string(name) + "\nHealth: " + to_string(health) + "\nAttack: " + to_string(attack) + "\nDefense: " + to_string(defense) + "\nSpeed: " + to_string(speed);
 }
 
 bool Character::getIsPlayer() {

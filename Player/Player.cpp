@@ -13,7 +13,7 @@ bool compareSpeed(Enemy *a, Enemy *b) {
     return a->getSpeed() > b->getSpeed();
 }
 //cambio
-Player::Player(char name[30], int health, int attack, int defense, int speed) : Character(name, health, attack, defense,
+Player::Player(char* name, int health, int attack, int defense, int speed) : Character(name, health, attack, defense,
                                                                                         speed, true) {
     experience = 0;
     level = 1;
@@ -114,4 +114,34 @@ Action Player::takeAction(vector<Enemy *> enemies) {
     }
 
     return myAction;
+}
+
+char* Player::serialize() {//esto es serializar
+    char* iterador = buffer;
+
+    memcpy(iterador, name, sizeof name);
+    iterador += sizeof name;
+
+    memcpy(iterador, &health, sizeof health);
+    iterador += sizeof health;
+
+    memcpy(iterador, &attack, sizeof attack);
+    iterador += sizeof attack;
+
+    memcpy(iterador, &defense, sizeof defense);
+    iterador += sizeof defense;
+
+    memcpy(iterador, &speed, sizeof speed);
+    iterador += sizeof speed;
+
+    memcpy(iterador, &isPlayer, sizeof isPlayer);
+    iterador += sizeof isPlayer;
+
+    memcpy(iterador, &experience, sizeof experience);
+    iterador += sizeof experience;
+
+    memcpy(iterador, &level, sizeof level);
+
+    return buffer;
+
 }
