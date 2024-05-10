@@ -12,7 +12,7 @@
 //const char* a su memoria interna
 //strcpy es una funcion que copia la cadena a un char*
 
-Character::Character(char* _name, int _health, int _attack, int _defense, int _speed, bool _isPlayer) {//cambio a char
+Character::Character(char* _name, int _health, int _attack, int _defense, int _speed, bool _isPlayer, int _experience, int _level) {//cambio a char
     strcpy(name, _name);//////////////////////////////////
     health = _health;
     attack = _attack;
@@ -20,6 +20,9 @@ Character::Character(char* _name, int _health, int _attack, int _defense, int _s
     speed = _speed;
     isPlayer = _isPlayer;
     fleed = false;
+    experience = _experience;
+    level = _level;
+
 }
 
 void Character::setName(char* _name) {///cambio a char
@@ -62,8 +65,10 @@ int Character::getSpeed() {
     return speed;
 }
 
-string Character::toString() {
-    return "Name: " + string(name) + "\nHealth: " + to_string(health) + "\nAttack: " + to_string(attack) + "\nDefense: " + to_string(defense) + "\nSpeed: " + to_string(speed);
+char Character::toString() {
+    cout << "Name: " << name
+         << "\nHealth: " + to_string(health) + "\nAttack: " + to_string(attack) + "\nDefense: " + to_string(defense) +
+            "\nSpeed: " + to_string(speed);
 }
 
 bool Character::getIsPlayer() {
@@ -72,4 +77,13 @@ bool Character::getIsPlayer() {
 
 bool Character::hasFleed() {
     return fleed;
+}
+
+int Character::getExperience() {
+    return experience;
+}
+
+
+int Character::getLevel() {
+    return level;
 }

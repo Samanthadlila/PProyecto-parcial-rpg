@@ -13,6 +13,10 @@
 #include <string>
 #include <queue>
 
+using namespace std;
+
+class Enemy;
+class player;
 
 class Combat {
 private:
@@ -37,6 +41,10 @@ public:
     void addParticipant(Character *participant);
     void doCombat();
     string participantsToString();
+
+
+    void increaseEnemyStats(int points);
+
 };
 
 

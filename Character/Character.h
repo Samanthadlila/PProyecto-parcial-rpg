@@ -10,7 +10,10 @@
 using namespace std;
 
 class Character {
-protected:
+public:
+    Character(char *_name, int _health, int _attack, int _defense, int _speed, bool _isPlayer, int _experience,
+              int _level);
+
     char name[30];
     int health;
     int attack;
@@ -18,6 +21,10 @@ protected:
     int speed;
     bool isPlayer;
     bool fleed;
+    int experience;
+
+    int level;
+
 
 public:
     Character(char*, int, int, int, int, bool);//cambio a char
@@ -37,9 +44,12 @@ public:
     int getDefense();
     void setSpeed(int);
     int getSpeed();
-    string toString();
+    char toString();
     bool getIsPlayer();
     bool hasFleed();
+    int getExperience();
+    int getLevel();
+
 };
 
 

@@ -50,18 +50,54 @@ void Combat::prepareCombat() {
 void Combat::doCombat() {
     prepareCombat();
 
-    while(enemies.size() != 0 && teamMembers.size() != 0) {
+    while (enemies.size() != 0 && teamMembers.size() != 0) {
         registerActions();
         executeActions();
     }
+    if (enemies.size() == 0) {
+        cout << "|||||||Has ganado el combate|||||" << endl;
 
-    if(enemies.size() == 0) {
-        cout<<"||||Has ganado el combate||||"<<endl;
+        for (Enemy* enemy : enemies) {
+
+            if (enemy->health <= 0) {
+                cout << "El enemigo tiene  " << enemy->experience << " de experiencia." << endl;
+            }
+        }
+
+
+        for (Player* player : teamMembers) {
+
+            cout << "|||||| " << player->getName() << " has ganado " << player->experience << " de experiencia." << endl;
+        }
+    } else {
+        cout << "|||El enemigo ha ganado el combate|||" << endl;
     }
-    else {
-        cout<<"El enemigo ha ganado el combate |||Game Over|||"<<endl;
+
+
+////
+
+    for (Player *player: teamMembers) {
+    cout << "NIVEL GANADO:  " << endl;
+    cout << player->health << endl;
+    cout << player->attack << endl;
+    cout << player->defense << endl;
     }
 }
+
+
+void Combat::increaseEnemyStats(int points) {
+    for (Enemy *enemy: enemies) {
+
+        int healthIncrease = points / 2;
+        int attackIncrease = points / 2;
+        int defenseIncrease = points - healthIncrease - attackIncrease;
+        enemy->health += healthIncrease;
+        enemy->attack += attackIncrease;
+        enemy->defense += defenseIncrease;
+    }
+}
+//////
+
 
 void Combat::registerActions() {
     vector<Character*>::iterator participant = participants.begin();
@@ -81,14 +117,23 @@ void Combat::registerActions() {
 }
 
 void Combat::executeActions() {
-
     while(!actions.empty()) {
         Action currentAction = actions.top();
         currentAction.action();
         checkForFlee(currentAction.subscriber);
-        checkParticipantStatus(currentAction.subscriber);
-        checkParticipantStatus(currentAction.target);
-        actions.pop();
+        if(currentAction.target!= nullptr)
+        {
+            checkParticipantStatus(currentAction.subscriber);
+            checkParticipantStatus(currentAction.target);
+            actions.pop();
+        }
+        else{
+            while (!actions.empty()) {
+                actions.pop();
+            }
+        }
+
+
     }
 }
 
