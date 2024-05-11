@@ -52,10 +52,10 @@ RM = "C:\Program Files\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg"
+CMAKE_SOURCE_DIR = "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PProyecto_parcial_rpg.dir/depend.make
@@ -69,74 +69,74 @@ include CMakeFiles/PProyecto_parcial_rpg.dir/progress.make
 include CMakeFiles/PProyecto_parcial_rpg.dir/flags.make
 
 CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/flags.make
-CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj: C:/Users/preci/Desktop/Segundo\ semestre/Programacion/PProyecto-parcial-rpg/main.cpp
+CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj: C:/Users/preci/Downloads/Proyeto\ nuevo/PProyecto-parcial-rpg/main.cpp
 CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\main.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\main.cpp.obj -c "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj"
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\main.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\main.cpp.obj -c "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\main.cpp"
 
 CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.i"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\main.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\main.cpp.i
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\main.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\main.cpp.i
 
 CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PProyecto_parcial_rpg.dir/main.cpp.s"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\main.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\main.cpp.s
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\main.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\main.cpp.s
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/flags.make
-CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj: C:/Users/preci/Desktop/Segundo\ semestre/Programacion/PProyecto-parcial-rpg/Character/Character.cpp
+CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj: C:/Users/preci/Downloads/Proyeto\ nuevo/PProyecto-parcial-rpg/Character/Character.cpp
 CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\Character\Character.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\Character\Character.cpp.obj -c "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Character\Character.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj"
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\Character\Character.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\Character\Character.cpp.obj -c "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Character\Character.cpp"
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.i"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Character\Character.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\Character\Character.cpp.i
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Character\Character.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\Character\Character.cpp.i
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.s"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Character\Character.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\Character\Character.cpp.s
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Character\Character.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\Character\Character.cpp.s
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/flags.make
-CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj: C:/Users/preci/Desktop/Segundo\ semestre/Programacion/PProyecto-parcial-rpg/Combat/Combat.cpp
+CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj: C:/Users/preci/Downloads/Proyeto\ nuevo/PProyecto-parcial-rpg/Combat/Combat.cpp
 CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\Combat\Combat.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\Combat\Combat.cpp.obj -c "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Combat\Combat.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj"
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\Combat\Combat.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\Combat\Combat.cpp.obj -c "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Combat\Combat.cpp"
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.i"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Combat\Combat.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\Combat\Combat.cpp.i
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Combat\Combat.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\Combat\Combat.cpp.i
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PProyecto_parcial_rpg.dir/Combat/Combat.cpp.s"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Combat\Combat.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\Combat\Combat.cpp.s
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Combat\Combat.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\Combat\Combat.cpp.s
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/flags.make
-CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj: C:/Users/preci/Desktop/Segundo\ semestre/Programacion/PProyecto-parcial-rpg/Enemy/Enemy.cpp
+CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj: C:/Users/preci/Downloads/Proyeto\ nuevo/PProyecto-parcial-rpg/Enemy/Enemy.cpp
 CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\Enemy\Enemy.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\Enemy\Enemy.cpp.obj -c "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Enemy\Enemy.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj"
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\Enemy\Enemy.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\Enemy\Enemy.cpp.obj -c "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Enemy\Enemy.cpp"
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.i"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Enemy\Enemy.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\Enemy\Enemy.cpp.i
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Enemy\Enemy.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\Enemy\Enemy.cpp.i
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PProyecto_parcial_rpg.dir/Enemy/Enemy.cpp.s"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Enemy\Enemy.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\Enemy\Enemy.cpp.s
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Enemy\Enemy.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\Enemy\Enemy.cpp.s
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/flags.make
-CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj: C:/Users/preci/Desktop/Segundo\ semestre/Programacion/PProyecto-parcial-rpg/Player/Player.cpp
+CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj: C:/Users/preci/Downloads/Proyeto\ nuevo/PProyecto-parcial-rpg/Player/Player.cpp
 CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj: CMakeFiles/PProyecto_parcial_rpg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\Player\Player.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\Player\Player.cpp.obj -c "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Player\Player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj"
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.obj -MF CMakeFiles\PProyecto_parcial_rpg.dir\Player\Player.cpp.obj.d -o CMakeFiles\PProyecto_parcial_rpg.dir\Player\Player.cpp.obj -c "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Player\Player.cpp"
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.i"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Player\Player.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\Player\Player.cpp.i
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Player\Player.cpp" > CMakeFiles\PProyecto_parcial_rpg.dir\Player\Player.cpp.i
 
 CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PProyecto_parcial_rpg.dir/Player/Player.cpp.s"
-	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\Player\Player.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\Player\Player.cpp.s
+	C:\PROGRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\Player\Player.cpp" -o CMakeFiles\PProyecto_parcial_rpg.dir\Player\Player.cpp.s
 
 # Object files for target PProyecto_parcial_rpg
 PProyecto_parcial_rpg_OBJECTS = \
@@ -158,7 +158,7 @@ PProyecto_parcial_rpg.exe: CMakeFiles/PProyecto_parcial_rpg.dir/build.make
 PProyecto_parcial_rpg.exe: CMakeFiles/PProyecto_parcial_rpg.dir/linkLibs.rsp
 PProyecto_parcial_rpg.exe: CMakeFiles/PProyecto_parcial_rpg.dir/objects1.rsp
 PProyecto_parcial_rpg.exe: CMakeFiles/PProyecto_parcial_rpg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PProyecto_parcial_rpg.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PProyecto_parcial_rpg.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PProyecto_parcial_rpg.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/PProyecto_parcial_rpg.dir/clean:
 .PHONY : CMakeFiles/PProyecto_parcial_rpg.dir/clean
 
 CMakeFiles/PProyecto_parcial_rpg.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg" "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg" "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug" "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug" "C:\Users\preci\Desktop\Segundo semestre\Programacion\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles\PProyecto_parcial_rpg.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg" "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg" "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug" "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug" "C:\Users\preci\Downloads\Proyeto nuevo\PProyecto-parcial-rpg\cmake-build-debug\CMakeFiles\PProyecto_parcial_rpg.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/PProyecto_parcial_rpg.dir/depend
 

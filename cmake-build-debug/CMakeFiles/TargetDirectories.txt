@@ -1,3 +1,3 @@
-C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/cmake-build-debug/CMakeFiles/PProyecto_parcial_rpg.dir
-C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/preci/Downloads/Proyeto nuevo/PProyecto-parcial-rpg/cmake-build-debug/CMakeFiles/PProyecto_parcial_rpg.dir
+C:/Users/preci/Downloads/Proyeto nuevo/PProyecto-parcial-rpg/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/preci/Downloads/Proyeto nuevo/PProyecto-parcial-rpg/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,6 @@
 CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj: \
- C:\Users\preci\Desktop\Segundo\ semestre\Programacion\PProyecto-parcial-rpg\Character\Character.cpp \
- C:\Users\preci\Desktop\Segundo\ semestre\Programacion\PProyecto-parcial-rpg\Character\Character.h \
+ C:\Users\preci\Downloads\Proyeto\ nuevo\PProyecto-parcial-rpg\Character\Character.cpp \
+ C:\Users\preci\Downloads\Proyeto\ nuevo\PProyecto-parcial-rpg\Character\Character.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/string \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -98,7 +98,7 @@ CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj: \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
- C:/Users/preci/Desktop/Segundo\ semestre/Programacion/PProyecto-parcial-rpg/Combat/Action.h \
+ C:/Users/preci/Downloads/Proyeto\ nuevo/PProyecto-parcial-rpg/Combat/Action.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_function.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/typeinfo \
@@ -122,7 +122,7 @@ CMakeFiles/PProyecto_parcial_rpg.dir/Character/Character.cpp.obj: \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
- C:/Users/preci/Desktop/Segundo\ semestre/Programacion/PProyecto-parcial-rpg/Character/Character.h \
+ C:/Users/preci/Downloads/Proyeto\ nuevo/PProyecto-parcial-rpg/Character/Character.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Program\ Files/CLion\ 2023.3.4/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
