@@ -79,7 +79,7 @@ void Combat::doCombat() {
 ////
 
     for (Player *player: teamMembers) {
-        cout << "NIVEL GANADO:  " << endl;
+        cout << "||ACTUALIZACION DE ESTADISTICAS||" << endl;
         cout << "Vida: "<<  player->health << endl;
         cout << "Ataque: "<<player->attack << endl;
         cout << "Defensa: "<<player->defense << endl;
