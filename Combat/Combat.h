@@ -42,8 +42,10 @@ public:
     void doCombat();
     string participantsToString();
 
+    void grantExperience(Character *player, Enemy *enemy);
 
-    void increaseEnemyStats(int points);
+
+        void increaseEnemyStats(int points);
 
 };
 

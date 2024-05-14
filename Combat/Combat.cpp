@@ -46,7 +46,7 @@ void Combat::addParticipant(Character *participant) {
 void Combat::prepareCombat() {
     sort(participants.begin(), participants.end(), compareSpeed);
 }
-
+////////////////////////////////////////////////////
 void Combat::doCombat() {
     prepareCombat();
 
@@ -54,33 +54,33 @@ void Combat::doCombat() {
         registerActions();
         executeActions();
     }
-    if (enemies.size() == 0) {
+    if (enemies.size() != 0) {
+        cout << "|||El enemigo ha ganado el combate|||" << endl;
+    } else {
         cout << "|||||||Has ganado el combate|||||" << endl;
 
-        for (Enemy* enemy : enemies) {
+        for (Enemy * enemy : enemies) {
 
             if (enemy->health <= 0) {
-                cout << "El enemigo tiene  " << enemy->experience << " de experiencia." << endl;
+                cout << "El enemigo tiene  " << enemy-> getExperience() << " de experiencia." << endl;
             }
         }
+        ///////////////////////////////////////////////////////////////
+        for (Player *player: teamMembers) {
 
-
-        for (Player* player : teamMembers) {
-
-            cout << "|||||| " << player->getName() << " has ganado " << player->experience << " de experiencia." << endl;
+            cout << "|||||| " << player->getName() << " has ganado " << player->experience << " de experiencia."
+                 << endl;
         }
-    } else {
-        cout << "|||El enemigo ha ganado el combate|||" << endl;
     }
 
 
 ////
 
     for (Player *player: teamMembers) {
-    cout << "NIVEL GANADO:  " << endl;
-    cout << player->health << endl;
-    cout << player->attack << endl;
-    cout << player->defense << endl;
+        cout << "NIVEL GANADO:  " << endl;
+        cout << player->health << endl;
+        cout << player->attack << endl;
+        cout << player->defense << endl;
     }
 }
 
@@ -123,6 +123,7 @@ void Combat::executeActions() {
         checkForFlee(currentAction.subscriber);
         if(currentAction.target!= nullptr)
         {
+            grantExperience(currentAction.subscriber, (Enemy *)currentAction.target);
             checkParticipantStatus(currentAction.subscriber);
             checkParticipantStatus(currentAction.target);
             actions.pop();
@@ -136,7 +137,7 @@ void Combat::executeActions() {
 
     }
 }
-
+////////////////////////
 void Combat::checkParticipantStatus(Character* participant) {
     if(participant->getHealth() <= 0) {
         if(participant->getIsPlayer()) {
@@ -171,3 +172,11 @@ string Combat::participantsToString() {
     }
     return result;
 }
+
+/////////////////////////////////////////////////////////////
+void Combat::grantExperience(Character *player, Enemy *enemy){
+    if(enemy->getHealth() <= 0){
+        cout << "El enemigo tiene " << enemy->getExperience() << " experiencia" << endl;
+    }
+}
+//////////////////////////////////////////////////////////////

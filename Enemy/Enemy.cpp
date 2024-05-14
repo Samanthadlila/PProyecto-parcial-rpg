@@ -25,7 +25,7 @@ void Enemy::doAttack(Character *target) {
 void Enemy::takeDamage(int damage) {
     setHealth(getHealth() - damage);
     if(getHealth() <= 0) {
-        cout<<getName()<<" has died"<<endl;
+        cout<<getName()<<" Has muerto"<<endl;
     }
     else {
         cout<<getName()<<" has taken " << damage << " damage" << endl;
@@ -69,5 +69,4 @@ Action Enemy::takeAction(vector<Player *> player) {
     }
     return myAction;
 }
-
 

@@ -1,4 +1,4 @@
-//Samantha 10 DE MAYO 2024
+//Samantha 13 DE MAYO 2024
 
 #include <iostream>
 #include "Enemy/Enemy.h"
@@ -11,8 +11,9 @@ using namespace std;
 int main();
 
 int main() {
-    Player *player = new Player("Samantha", 30, 8, 2, 10, 20, 14);
-    Enemy *enemy = new Enemy("Programacion", 30, 9, 2, 7, 20, 15);
+    Player *player = new Player("Samantha", 50, 10, 2, 10, 20, 14);
+    Enemy *enemy = new Enemy("Programacion", 20, 9, 2, 7, 20, 15);
+    enemy ->setWinEnemy(45);
 
     vector<Character*> participants;
     participants.push_back(player);

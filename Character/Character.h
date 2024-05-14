@@ -47,8 +47,11 @@ public:
     char toString();
     bool getIsPlayer();
     bool hasFleed();
-    int getExperience();
-    int getLevel();
+
+    int getExperience();////
+    int getLevel();/////////
+
+    void setWinEnemy(int );///////////////////////
 
 };
 

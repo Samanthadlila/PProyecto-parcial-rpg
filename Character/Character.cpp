@@ -87,3 +87,7 @@ int Character::getExperience() {
 int Character::getLevel() {
     return level;
 }
+///////////////////////////////
+void Character ::setWinEnemy(int exp) {
+    experience += exp;
+}

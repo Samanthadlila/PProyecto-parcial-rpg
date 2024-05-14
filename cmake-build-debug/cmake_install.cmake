@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/preci/Downloads/Proyeto nuevo/PProyecto-parcial-rpg
+# Install script for directory: C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/preci/Downloads/Proyeto nuevo/PProyecto-parcial-rpg/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/preci/Desktop/Segundo semestre/Programacion/PProyecto-parcial-rpg/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
