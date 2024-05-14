@@ -22,13 +22,15 @@ void Enemy::doAttack(Character *target) {
     target->takeDamage(trueDamage);
 }
 
+
+
 void Enemy::takeDamage(int damage) {
     setHealth(getHealth() - damage);
     if(getHealth() <= 0) {
-        cout<<getName()<<" Has muerto"<<endl;
+        cout<<getName()<<" ha muerto "<<endl;
     }
     else {
-        cout<<getName()<<" has taken " << damage << " damage" << endl;
+        cout<<getName()<<" tiene " << damage << " de danio " << endl;
     }
 }
 

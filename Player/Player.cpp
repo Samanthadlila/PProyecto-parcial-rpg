@@ -25,9 +25,9 @@ void Player::doAttack(Character *target) {
 
 void Player::takeDamage(int damage) {
     setHealth(health - damage);
-    cout << "You have taken " << damage << " damage" << endl;
+    cout << "Tienes " << damage << " de danio " << endl;
     if (health <= 0) {
-        cout << "You have died" << endl;
+        cout << "Samantha ha morido." << endl;
     }
 }
 
@@ -67,14 +67,7 @@ Character *Player::getTarget(vector<Enemy *> enemies) {
     return enemies[targetIndex];
 }
 
-//Experiencia
-void Player::gainExperience(Enemy* enemy) {
-    if (enemy && enemy->health <= 0) {
-        experience += enemy->experience;
-        LevelUp();
-    }
-}
-////////
+
 
 void Player::LevelUp() {
     while (experience >= 100) {
@@ -89,7 +82,6 @@ void Player::LevelUp() {
         defense += defenseGain;
     }
 }
-
 
 
 Action Player::takeAction(vector<Enemy *> enemies) {

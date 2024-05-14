@@ -46,6 +46,8 @@ void Combat::addParticipant(Character *participant) {
 void Combat::prepareCombat() {
     sort(participants.begin(), participants.end(), compareSpeed);
 }
+
+
 ////////////////////////////////////////////////////
 void Combat::doCombat() {
     prepareCombat();
@@ -158,7 +160,7 @@ void Combat::checkForFlee(Character *character) {
             teamMembers.erase(remove(teamMembers.begin(), teamMembers.end(), character), teamMembers.end());
         }
         else {
-            cout<<character->getName()<<" El enemigo ha dejado el combate"<<endl;
+            cout<<character->getName()<<" que es el enemigo, ha perdido."<<endl;
             enemies.erase(remove(enemies.begin(), enemies.end(), character), enemies.end());
         }
         participants.erase(remove(participants.begin(), participants.end(), character), participants.end());
